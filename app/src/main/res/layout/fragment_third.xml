@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@color/green"
+    android:background="@color/teal"
     tools:context="onboarding.ThirdFragment">
 
     <ImageView
@@ -30,7 +30,7 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/onboarding_order_title"
         android:textColor="@color/black"
-        android:textSize="24sp"
+        android:textSize="27sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/imageViewMenu" />
@@ -44,7 +44,7 @@
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/title_2"
         android:textColor="@color/orange"
-        android:textSize="24sp"
+        android:textSize="27sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textViewTitle1" />
@@ -73,7 +73,7 @@
         android:layout_height="wrap_content"
         android:text="@string/skip_boton"
         android:textColor="@android:color/white"
-        android:backgroundTint="@color/green"
+        android:backgroundTint="@color/teal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginBottom="16dp"
