@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Comandas</string>
+    <string name="app_name">Comandas UTH</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
@@ -7,4 +7,29 @@
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="copyright">2024</string>
     <string name="only_uth">Only for students and faculty of UTH</string>
+
+    <!-- First Fragment -->
+    <string name="onboarding_image_description">Welcome Image</string>
+    <string name="onboarding_welcome_title">Welcome</string>
+    <string name="onboarding_welcome_description">Ordena tus alimentos y bebidas favoritas sin hacer fila.</string>
+    <string name="next_boton">Next</string>
+    <string name="skip_boton">Skip</string>
+
+    <!-- Second Fragment -->
+    <string name="onboarding_welcome_title2">¡Bienvenido a la Cafetería!</string>
+    <string name="onboarding_welcome_description2">Ordena tus alimentos y bebidas favoritas sin hacer fila.</string>
+    <string name="onboarding_image_description_2">Menu Image</string>
+    <string name="onboarding_menu_title">Explora el Menú</string>
+    <string name="onboarding_menu_description">Discover a variety of products available in our cafeteria and place your order easily.</string>
+    <string name="menu">Menu</string>
+    <string name="title1_page2">Explore our</string>
+
+    <!-- Third Fragment -->
+    <string name="onboarding_image_description_3">Order Image</string>
+    <string name="onboarding_order_title">Complet your</string>
+    <string name="title_2">Order</string>
+    <string name="onboarding_order_description">Place your order and pick it up without waiting. It\'s easy and fast!</string>
+
+
+
 </resources>
