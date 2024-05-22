@@ -25,7 +25,8 @@ class InitFragment : Fragment() {
         val fragmentList = arrayListOf<Fragment>(
             FirstFragment(),
             SecondFragment(),
-            ThirdFragment()
+            ThirdFragment(),
+            LoginFragment()
         )
 
         val adapter = OnBoardingAdapter(fragmentList, requireActivity().supportFragmentManager, lifecycle)
