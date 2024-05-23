@@ -6,18 +6,20 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import mx.edu.uthermosillo.a21311072.comandas.databinding.FragmentCartBinding
-import mx.edu.uthermosillo.a21311072.comandas.databinding.FragmentTransferBinding
+import mx.edu.uthermosillo.a21311072.comandas.databinding.FragmentProductsBinding
 
-class TransferFragment : Fragment() {
 
-    private var _binding: FragmentTransferBinding? = null
+class ProductsFragment : Fragment() {
+
+
+    private var _binding: FragmentProductsBinding? = null
     private val binding get() = _binding!!
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentTransferBinding.inflate(inflater, container, false)
+        _binding = FragmentProductsBinding.inflate(inflater, container, false)
 
         return binding.root
     }
