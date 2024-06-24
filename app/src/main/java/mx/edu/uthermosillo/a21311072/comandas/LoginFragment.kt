@@ -15,6 +15,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import mx.edu.uthermosillo.a21311072.comandas.databinding.FragmentLoginBinding
+import mx.edu.uthermosillo.a21311072.comandas.ui.views.activities.MainActivity
 
 
 class LoginFragment : Fragment() {
@@ -74,14 +75,8 @@ class LoginFragment : Fragment() {
     }
 
     private fun updateUI(user: FirebaseUser?) {
-        if (user != null) {
-            // Navegar al DashboardFragment
-            Log.w(TAG,"Si loguea")
-            val dashboardFragment = DashboardFragment()
-            val transaction = requireActivity().supportFragmentManager.beginTransaction()
-            transaction.replace(R.id.dashboardFragment, dashboardFragment)
-            transaction.addToBackStack(null)
-            transaction.commit()
-        }
+        val intent = Intent(activity, MainActivity::class.java)
+        startActivity(intent)
+        requireActivity().finish()
     }
 }
