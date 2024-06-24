@@ -37,6 +37,8 @@
             android:layout_height="match_parent">
 
 
+
+
             <ImageView
                 android:id="@+id/login_logo"
                 android:layout_width="match_parent"
@@ -49,17 +51,15 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:src="@drawable/banner" />
 
-
-            <Button
+            <com.google.android.gms.common.SignInButton
                 android:id="@+id/signin"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 app:layout_constraintTop_toBottomOf="@id/login_logo"
                 app:layout_constraintBottom_toTopOf="@id/copyright"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintEnd_toEndOf="parent"
-                android:text="@string/sign_in_with_google"
-                style="@style/login_button"/>
+                app:layout_constraintEnd_toEndOf="parent" />
+
 
 
             <TextView

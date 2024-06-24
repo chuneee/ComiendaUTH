@@ -1,15 +1,16 @@
 package mx.edu.uthermosillo.a21311072.comandas
 
+import HistoryFragment
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import mx.edu.uthermosillo.a21311072.comandas.adapters.OnBoardingAdapter
+import mx.edu.uthermosillo.a21311072.comandas.ui.adapters.OnBoardingAdapter
 import mx.edu.uthermosillo.a21311072.comandas.databinding.FragmentInitBinding
-import onboarding.FirstFragment
-import onboarding.SecondFragment
-import onboarding.ThirdFragment
+import mx.edu.uthermosillo.a21311072.comandas.ui.views.onboarding.FirstFragment
+import mx.edu.uthermosillo.a21311072.comandas.ui.views.onboarding.SecondFragment
+import mx.edu.uthermosillo.a21311072.comandas.ui.views.onboarding.ThirdFragment
 
 class InitFragment : Fragment() {
 
@@ -29,7 +30,7 @@ class InitFragment : Fragment() {
             FirstFragment(),
             SecondFragment(),
             ThirdFragment(),
-            LoginFragment()
+            LoginFragment(),
         )
 
         val adapter = OnBoardingAdapter(fragmentList, requireActivity().supportFragmentManager, lifecycle)

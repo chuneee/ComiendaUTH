@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "960483057570",
+    "project_id": "coyocoinss",
+    "storage_bucket": "coyocoinss.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:960483057570:android:9921146bc2d1ef66081cfb",
+        "android_client_info": {
+          "package_name": "mx.edu.uthermosillo.a21311072.comandas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "960483057570-aebh7ulnc1iad9sdsgf3omidogs0dmq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.uthermosillo.a21311072.comandas",
+            "certificate_hash": "504d1b39d632f2ca9363dbd20fbf96e6d5ba7291"
+          }
+        },
+        {
+          "client_id": "960483057570-vlf6hms8fsj0to18t43th0sstmmffs0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaFaJ_B2JDIcoNRHolb_Q61YybtRpx0xw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "960483057570-vlf6hms8fsj0to18t43th0sstmmffs0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/teal"
-    tools:context="onboarding.ThirdFragment">
+    tools:context=".ui.views.onboarding.ThirdFragment">
 
     <ImageView
         android:id="@+id/imageViewMenu"
