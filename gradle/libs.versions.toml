@@ -38,6 +38,8 @@ circleImageView = { group = "de.hdodenhof", name = "circleimageview", version.re
 glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
 glide-compiler = { group = "com.github.bumptech.glide", name = "compiler", version.ref = "glide" }
 
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version = "2.11.0"}
+
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
 jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

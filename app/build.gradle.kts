@@ -58,6 +58,7 @@ dependencies {
     implementation(libs.firebase.analytics)
     implementation("androidx.recyclerview:recyclerview:1.2.1")
     implementation(libs.glide)
+    implementation(libs.retrofit)
     kapt(libs.glide.compiler)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
